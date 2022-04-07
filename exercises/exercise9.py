@@ -12,6 +12,9 @@ numero_3 = 3
 
 # COMPLETAR - INICIO
 
+conjunto_1=set()
+conjunto_1.add(numero_1,numero_2,numero_3)
+
 # COMPLETAR - FIN
 
 assert conjunto_1 == {1, 2, 3}

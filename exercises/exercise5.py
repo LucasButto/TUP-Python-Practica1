@@ -12,6 +12,8 @@ variable_03 = "a todos!"
 
 # COMPLETAR - INICIO
 
+strings_concatenados=variable_01+variable_02+variable_03
+
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Buenos días a todos!"
@@ -28,6 +30,8 @@ usar operadores).
 # "strings!"
 
 # COMPLETAR - INICIO
+
+strings_concatenados="¡Mamá " "estoy concatenando " "strings!"
 
 # COMPLETAR - FIN
 
@@ -46,6 +50,10 @@ variable_03 = " pesos a un amigo."
 
 # COMPLETAR - INICIO
 
+variable_02=str(variable_02)
+
+strings_concatenados=variable_01+variable_02+variable_03
+
 # COMPLETAR - FIN
 
 assert strings_concatenados == "Le debo 600 pesos a un amigo."
@@ -60,10 +68,12 @@ Restricción: Utilizar el método format.
 variable_01 = "Le debo "
 variable_02 = 6
 variable_03 = " pesos a un amigo hace "
-variable_04 = " años."
+variable_04 = "años."
 variable_05 = "Ezequiel"
 
 # COMPLETAR - INICIO
+
+strings_concatenados=(variable_01+ "{precio}" +variable_03+ "{anios} " +variable_04+ " Se llama {nombre}").format(precio = variable_02, anios=variable_02, nombre=variable_05)
 
 # COMPLETAR - FIN
 
@@ -83,6 +93,8 @@ variable_03 = " pesos que le debía a Ezequiel, me faltan $"
 variable_04 = 4
 
 # COMPLETAR - INICIO
+
+strings_concatenados=f"{variable_01}{variable_02}{variable_03}{variable_04}"
 
 # COMPLETAR - FIN
 
