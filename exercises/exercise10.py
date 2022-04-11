@@ -8,7 +8,7 @@ Interpretar como booleano la siguente variable y guardar el valor resultante en 
 A = 5
 
 # COMPLETAR - INICIO
-print('hola')
+print('hola lucas')
 # COMPLETAR - FIN
 
 assert variable_01 is True
